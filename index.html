@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groove</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header>
+        <img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-logo%5B1%5D.png" alt="image">
+    </header>
+    <div id="top-container">
+        <h1 id="heading">Welcome to Groove!</h1>
+        <p id="tagline">Select you favorite groceries, confirm your mobile number<br>and get them delivered in 30 mins - <b>Straight from the Farm</b></p>
+        <button id="store-btn"><a href="#table">What's in store?</a></button>
+    </div>
+    <div id="table">
+    <h1 id="table-heading">Here What is in the store today</h1>
+    <table>
+        <tr>
+            <th>SELECT</th>
+            <th>ITEM</th>
+            <th>NAME</th>
+            <th>PRICE</th>
+            <th>CONTAINS</th>
+            <th>QUANTITY</th>
+        </tr>
+        
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><img class="item-img" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/apple%5B1%5D.png" alt=""></td>
+            <td><p>Green Apple</p></td>
+            <td><p>INR 22/- Per Kg</p></td>
+            <td><p>520 Calories, 3.0 g Protein,<br>2.0 g Fat, 24 g Fiber</p></td>
+            <td><input class="qty-box" type="number"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><img class="item-img" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/strawberry%5B1%5D.png" alt=""></td>
+            <td><p>Strawberries</p></td>
+            <td><p>INR 108/- Per Kg</p></td>
+            <td><p>424 Calories, 8.88 g Protein,<br>26.4 g Fiber.</p></td>
+            <td><input class="qty-box" type="number"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><img class="item-img" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/carrot%5B1%5D.png" alt=""></td>
+            <td><p>Carrots</p></td>
+            <td><p>INR 26/- Per Kg</p></td>
+            <td><p>410 Calories, 9.0 g Protein,<br>2.0 g Fat, 28.0 g Fiber</p></td>
+            <td><input class="qty-box" type="number"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><img class="item-img" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/spinach%5B1%5D.png" alt=""></td>
+            <td><p>Spinach</p></td>
+            <td><p>INR 10/- Per Kg</p></td>
+            <td><p>230 Calories, 29.0 g Protein,<br>4.0 g Fat, 22.0 g Fiber</p></td>
+            <td><input class="qty-box" type="number"></td>
+        </tr>
+        
+    </table>
+
+    <p id="last-para">One last step to place your order.<br>Enter your mobile number and you are done!</p>
+
+    <input id="mobile-btn" type="text" placeholder="Enter your mobile number">
+    <button id="bottom-btn" class="inline">Buy Now</button>
+    <p id="thanks-msg">Thank you for shopping with us</p>
+
+    <footer>
+        <p id="footer">Made with <a id="col">&#10084;</a> by kalvium</p>
+    </footer>
+    
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

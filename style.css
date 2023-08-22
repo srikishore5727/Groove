@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+
+header{
+    background-color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+img{
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+
+#top-container{
+    background:url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png");
+    height: 100vh;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top:15%;
+}
+
+#store-btn{
+    padding: 15px;
+    background-color: rgb(21, 214, 21);
+    margin-top: 10px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    /* box-shadow: grey 5px 5px 5px 2px; */
+
+}
+
+#heading{
+    margin-bottom: 13px;
+    font-size: 40px;
+}
+
+#tagline{
+    font-size: large;
+}
+
+table,th,td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: rgb(2, 148, 2);
+}
+
+.qty-box{
+    width: 40px;
+}
+
+.item-img{
+    width: 80px;
+    height: 70px;
+}
+
+#table-heading{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    
+}
+
+table{
+    margin:auto;
+}
+#last-para{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+#last-input{
+    width: 30px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+#mobile-btn{
+    height: 30px;
+    width: 220px;
+    display: block;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px ;
+}
+
+#bottom-btn{
+    height: 30px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    background-color: rgb(2, 148, 2);
+    border: 0;
+    margin-bottom: 30px;
+
+
+}
+#thanks-msg{
+    display: none;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#footer{
+    height: 40px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#col{
+    color: red;
+}
+
+tr:hover{
+    background-color: rgb(241, 235, 235);
+}
